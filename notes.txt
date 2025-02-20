@@ -1,0 +1,21 @@
+Stage
+git add file.md fileagain.md
+
+Commit
+git commit -m "ur message here"
+
+
+Use git cat-file -p to view the hash of the blob for the titles.md file in your last commit. Save that hash somewhere in your notes.
+git cat-file -p cmmits
+git cat-file -p tree
+git cat-file -p blob  -- 66693b8d72daef9170108c6ab4b3abd7f3950dd2
+
+Add a new directory to your project called quotes. Inside, add two files:
+starwars.md
+dune.md
+stage and commit
+git cat-file -p commits
+git cat-file -p tree
+git cat-file -p blob  again
+
+
